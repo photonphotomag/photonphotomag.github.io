@@ -167,7 +167,7 @@ nav ul li a {
     padding-right: 10px;
     */
     margin: 0 auto;
-    /*position: relative;*/
+    position: relative;
 }
 
 #issues ul li {
@@ -196,17 +196,6 @@ nav ul li a {
     width:590px;
     font-size: 16px;
     line-height: 22px;
-}
-
-/* ------------------------------------*/
-/* Formatting for the ESSAYS section    */
-/*-------------------------------------*/
-
-#essay {
-    margin: 0 auto;
-    width: 700px;
-/*    padding-right: 90px;
-    padding-left: 200px;*/
 }
 
 /* ------------------------------------*/
