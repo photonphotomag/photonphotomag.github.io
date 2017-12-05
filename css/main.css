@@ -72,7 +72,7 @@ nav ul li a {
 /* ---------------------------------------------------*/
 /* Formatting that applies to all content sections    */
 /*----------------------------------------------------*/
-#title_section, #about_section, #content_section, #essay_section {
+#title_section, #about_section, #issues_section, #content_section {
     width: 100%;
     /*height defines scrolling distance to each section*/
     /*height: 550px; */ 
