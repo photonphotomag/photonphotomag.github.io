@@ -74,7 +74,10 @@ nav ul li a {
 /*----------------------------------------------------*/
 #title_section, #about_section, #content_section, #essay_section {
     width: 100%;
-    height: 550px; /*height defines scrolling distance to each section*/
+    /*height defines scrolling distance to each section*/
+    /*height: 550px; */ 
+    /* Use 100% of viewport height. See https://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window */
+    height: 100vh;
     padding: 200px 0 0 0; /*Padding sets content position in each section. Padding (top, right, bottom, left) inside element*/
 }
 
