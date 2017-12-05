@@ -82,7 +82,7 @@ nav ul li a {
 }
 
 #issues_section {
-    width: 100%;
+    /*width: 100%;*/
     /* Issues section must grow as number of issues are added*/
     /*height: 1000px;*/ 
     padding: 100px 0 0 0; /*Padding sets content position in each section. Padding (top, right, bottom, left) inside element*/
@@ -167,7 +167,7 @@ nav ul li a {
     padding-right: 10px;
     */
     margin: 0 auto;
-    position: relative;
+    /*position: relative;*/
 }
 
 #issues ul li {
