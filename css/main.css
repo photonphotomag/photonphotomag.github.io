@@ -148,6 +148,15 @@ nav ul li a {
 /* Formatting for the ISSUES section    */
 /*-------------------------------------*/
 
+#issues {
+    width: 940px;
+    /*padding-left: 10px;
+    padding-right: 10px;
+    */
+    margin: 0 auto;
+    /*position: relative;*/
+}
+
 #issues ul:after {
   content: "."; /* Insert content that looks like bullets */
   display: block;
@@ -159,15 +168,6 @@ nav ul li a {
 .covers {
     width: 292px;
     height: 359px;
-}
-
-#issues {
-    width: 940px;
-    /*padding-left: 10px;
-    padding-right: 10px;
-    */
-    margin: 0 auto;
-    position: relative;
 }
 
 #issues ul li {
