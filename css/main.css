@@ -72,55 +72,37 @@ nav ul li a {
 /* ---------------------------------------------------*/
 /* Formatting that applies to all content sections    */
 /*----------------------------------------------------*/
-#title_section, #about_section, #issues_section, #content_section {
+.scroll_section {
     width: 100%;
     /*height defines scrolling distance to each section*/
-    /*height: 550px; */ 
+    /*height: 550px; */
     /* Use 100% of viewport height. See https://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window */
     height: 100vh;
     padding: 200px 0 0 0; /*Padding sets content position in each section. Padding (top, right, bottom, left) inside element*/
-}
-
-#issues_section {
-    /*width: 100%;*/
-    /* Issues section must grow as number of issues are added*/
-    /*height: 1000px;*/ 
-    padding: 100px 0 0 0; /*Padding sets content position in each section. Padding (top, right, bottom, left) inside element*/
 }
 
 /* ------------------------------------*/
 /* Formatting for the TITLE section    */
 /*-------------------------------------*/
 
-#title_section {
-    text-align: left;
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 #title{
-    /*outline: #00FF00 dotted thick;*/
-    position: relative;
+    text-align: left;
+    width: 65vw;
+    margin: auto;
 }
 
 #subtitle{
-    /*outline: #00FF00 dotted thick;*/
-    position: relative;
-    padding: 200px 0 0 0;
-    width:400px;
-    float:right;
+    text-align: left;
+    width:65vw;
+    padding: 60px 0 0 750px; /* This sets how far below and to the right the title the subtitle is*/
+    margin: auto;
 }
 
 #title p a {
     font-family: 'Philosopher';
-    width: 800px;
-    /*padding-right: 160px;*/
     font-size: 210px;
     line-height: 102px;
     letter-spacing:0px;
-    position: absolute;
-    /*right: 0px;*/
     margin: 0;
     color: rgb(0,0,0)
 }
