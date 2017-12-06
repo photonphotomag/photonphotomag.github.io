@@ -87,14 +87,14 @@ nav ul li a {
 
 #title{
     text-align: left;
-    width: 65vw;
+    width: 900px;
     margin: auto;
 }
 
 #subtitle{
-    text-align: left;
-    width:65vw;
-    padding: 60px 0 0 750px; /* This sets how far below and to the right the title the subtitle is*/
+    text-align: right;
+    width:550px;
+    padding: 60px 0px 0 0px; /* This sets how far below and to the right the title the subtitle is*/
     margin: auto;
 }
 
