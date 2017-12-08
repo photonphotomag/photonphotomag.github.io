@@ -77,8 +77,8 @@ nav ul li a {
     /*height defines scrolling distance to each section*/
     /*height: 550px; */
     /* Use 100% of viewport height. See https://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window */
-    height: 100vh;
-    padding: 200px 0 0 0; /*Padding sets content position in each section. Padding (top, right, bottom, left) inside element*/
+    height: 80vh;
+    padding: 20vh 0 0 0; /*Padding sets content position in each section. top pad + height = 100vh; Padding (top, right, bottom, left) inside element*/
 }
 
 /* ------------------------------------*/
