@@ -206,3 +206,13 @@ nav ul li a {
     font-size: 16px;
     line-height: 22px;
 }
+
+/* ------------------------------------*/
+/* Formatting for content pages        */
+/*-------------------------------------*/
+
+#essay_section {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 200px 0px 0 0px; /* This sets how far below and to the right the title the subtitle is*/
+}
