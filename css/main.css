@@ -216,3 +216,8 @@ nav ul li a {
     margin: 0 auto;
     padding: 200px 0px 0 0px; /* This sets how far below and to the right the title the subtitle is*/
 }
+
+.photo_aligncenter {
+    max-width: 100%;
+    margin: auto;
+}
