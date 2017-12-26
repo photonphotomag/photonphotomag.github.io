@@ -221,4 +221,5 @@ nav ul li a {
     max-width: 100%;
     max-height: 80vh;
     margin: auto;
+    line-height:1.5;
 }
