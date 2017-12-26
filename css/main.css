@@ -204,7 +204,7 @@ nav ul li a {
     margin: 0 60px 0 0px;
     float:left;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 32px;
 }
 
 /* ------------------------------------*/
@@ -221,5 +221,4 @@ nav ul li a {
     max-width: 100%;
     max-height: 80vh;
     margin: auto;
-    line-height:1.5;
 }
